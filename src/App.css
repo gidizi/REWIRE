@@ -1,6 +1,8 @@
-.App {
-  text-align: center;
-}
+
+* {
+  box-sizing: border-box;
+} 
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -31,3 +33,85 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.outerBorder {
+  width: 100%;
+  min-height: 660px;
+  border: 6px solid #E0E0E0;
+  padding: 16px 24px;
+}
+
+.centeredFrame {
+  width: 38%;
+  min-height: 405px;
+  align-items: center;
+}
+
+.largeScreenContentFrame {
+  margin-top: 45px;
+}
+
+#backButton {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.viewColors {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.flexcol-4 {
+  flex: 33.33%;
+  max-width: 33.33%;
+}
+
+.flexContainer {
+  display: flex;
+}
+
+.generalCentering{
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.colDirection {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.noWrap {
+  flex-wrap: nowrap;
+} 
+
+.rowDirection {
+  flex-direction: row;
+}
+
+.shadowFrame {
+  box-shadow: 0 2px 16px 0 rgba(198,198,198,0.5);
+}
+
+
+#backButtDiv {
+  align-self: flex-start;
+  text-align: left;
+}
+
+#logoDiv {
+  align-self: flex-end;
+  text-align: center;
+}
+
